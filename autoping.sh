@@ -10,13 +10,11 @@ TESTREACH5="192.168.6.164"
 #ssh root@$JUMPSERVER
 #ssh root@$JUMPDESTINY
 
-for (( START==1; START<=5; START++ ))
-do
-	ping -q -c 3 $TESTREACH1
-	ping -q -c 3 $TESTREACH2
-	ping -q -c 3 $TESTREACH3
-	ping -q -c 3 $TESTREACH4
-	ping -q -c 3 $TESTREACH59
-done
+ping -q -c 3 $TESTREACH1
+ping -q -c 3 $TESTREACH2
+ping -q -c 3 $TESTREACH3
+ping -q -c 3 $TESTREACH4
+ping -q -c 3 $TESTREACH5
+
 
 #exit
