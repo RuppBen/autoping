@@ -46,7 +46,7 @@ ssh root@$JUMPSERVER
 		then
 			$DUMMY=$JUMPDESTINY5
 		else
-			echo "panik, panik a lot"
+
 		fi
 	done
 exit
